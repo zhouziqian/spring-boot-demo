@@ -41,8 +41,11 @@ server:
     context-path: /demo
 jwt:
   config:
+    # 密钥
     key: zhouqi
+    # 过期时间
     ttl: 600000
+    # 开启记住我之后jwt过期时间
     remember: 604800000
 custom:
   config:
