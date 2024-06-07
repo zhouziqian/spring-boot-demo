@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: jpa-demo
+  datasource:
+    hikari:
+      username: spring_boot_demo
+      password: KfD54Xkwi5HtBEzE
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.100.26.234:3306/spring_boot_demo?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=Asia/Shanghai
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
+    properties:
+      hibernate:
+      dialect: org.hibernate.dialect.MySQL57InnoDBDialect
